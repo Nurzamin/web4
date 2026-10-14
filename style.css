@@ -1,0 +1,60 @@
+body {
+  background: #f4f7fb;
+  color: #202b3c;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background: #172554;
+}
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.intro {
+  max-width: 760px;
+}
+.eyebrow {
+  color: #2563eb;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h1 {
+  font-weight: 750;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+.form-card {
+  background: white;
+  max-width: 800px;
+  padding: 30px;
+  border: 1px solid #e0e7f0;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(23, 37, 84, 0.06);
+}
+.form-card h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+.form-control, .form-select {
+  padding: 0.7rem 0.8rem;
+}
+.btn-primary {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+.btn-primary:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+footer {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+.result-message {
+  font-weight: 600;
+}
+@media (max-width: 576px) {
+  .form-card {
+    padding: 20px;
+  }
+}
